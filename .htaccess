@@ -1,0 +1,9 @@
+Order Deny,Allow
+Deny from all
+
+<FilesMatch "\.(css|less|png|js|eot|woff|ttf|svg)$">
+	Allow from all
+</FilesMatch>
+<FilesMatch "style-gc-message-box.php">
+	Allow from all
+</FilesMatch>
